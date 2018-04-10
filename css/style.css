@@ -1,0 +1,202 @@
+@media screen and (max-width:375px) {
+    div {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+}
+
+.container {
+    padding: 0;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'th sarabun new', Courier, monospace;
+    src: url(fonts/thsarabun/THSarabunNew.ttf);
+}
+
+ul li {
+    font-family: 'Mitr', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2ecc71;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 1em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #16a085;
+}
+
+li>a>img {
+    height: 14px;
+    width: 49px;
+}
+
+ul>span {
+    float: left;
+}
+
+.vision>p {
+    font-size: 1.7em;
+    font-family: 'th sarabun new';
+}
+
+.vision>h1 {
+    font-family: 'Mitr', sans-serif;
+}
+
+.hero-img>h1 {
+    font-family: 'Mitr', sans-serif;
+}
+
+.hero-img>p {
+    font-family: 'th sarabun new';
+    font-size: 1.5em;
+}
+
+.quality {
+    font-family: 'Mitr', sans-serif;
+}
+
+footer {
+    font-family: 'Mitr', sans-serif;
+    background-color: #2ecc71;
+    padding: 1em;
+    color: white;
+}
+
+/**product**/
+
+.spice>h2 {
+    font-family: 'Mitr', sans-serif;
+}
+
+.seasonings>h2 {
+    font-family: 'Mitr', sans-serif;
+}
+
+.powder>h2 {
+    font-family: 'Mitr', sans-serif;
+}
+
+/**Contect**/
+
+.contact>h2 {
+    font-family: 'Mitr', sans-serif;
+}
+
+.contact>p {
+    font-family: 'th sarabun new';
+    font-size: 1.5em;
+}
+
+/**about**/
+
+.about>h2 {
+    font-family: 'Mitr', sans-serif;
+}
+
+.about>p {
+    font-family: 'th sarabun new';
+    font-size: 1.5em;
+}
+
+.spice>a:link,a:visited {
+    background-color: #2ecc71;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+} 
+
+.spice>a:hover,a:active {
+    background-color: #16a085;
+}
+
+.seasonings>a:link,a:visited {
+    background-color: #2ecc71;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+} 
+
+.seasonings>a:hover,a:active {
+    background-color: #16a085;
+}
+
+.powder>a:link,a:visited {
+    background-color: #2ecc71;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+} 
+
+.powder>a:hover,a:active {
+    background-color: #16a085;
+}
+
+.spice>a,.seasonings>a,.powder>a {
+    font-family: 'Mitr', sans-serif;
+}
+
+.first>a:link,a:visited {
+    background-color: #2ecc71;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+} 
+
+.first>a:hover,a:active {
+    background-color: #16a085;
+}
+
+.second>a:link,a:visited {
+    background-color: #2ecc71;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+} 
+
+.second>a:hover,a:active {
+    background-color: #16a085;
+}
+
+.first>a,.second>a {
+    font-family: 'Mitr', sans-serif;
+}
+
+.main>h2 {
+    font-family: 'Mitr', sans-serif;
+}
+
+.main>p {
+    font-family: 'th sarabun new';
+    font-size: 1.58em;
+}
